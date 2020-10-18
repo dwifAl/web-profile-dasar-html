@@ -1,0 +1,168 @@
+/* Untuk Tablet */
+@media all and ( max-width: 1290px) {
+    input[type=text], input[type=email], input[type=number], select, textarea {
+        width: 370px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+    }
+    
+    fieldset {
+        margin-bottom: 20px;
+    }
+    
+    .btn-submit {
+        width: 560px;
+    }
+}
+
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .nav-left {
+        display: none;
+    }
+
+    .header-top {
+        top:0;
+        position:fixed;
+        width:100%
+    }
+
+    .topnav {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 100%;
+        padding: 10px 20px 0px 20px;
+    }
+    
+    .topnav li {
+        display: none;
+    }
+    
+    .topnav a.icon {
+        float: right;
+        display: inline-block;
+        font-size: 25px;
+        color: white;
+        position: absolute;
+        padding : 9px 15px;
+        right: 0;
+        top: 0;
+    }
+    
+    .topnav.responsive {
+        background-color: black;
+        color: white;
+        position: absolute;
+        width: 100%;
+        padding: 10px 20px 0px 20px;
+    }
+
+    .topnav.responsive .nav-left {
+        display: block;
+        font-size: 14px;
+        margin-left:  0px;
+    }
+        
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        padding : 9px 15px;
+        top: 0;
+        color : white;
+    }
+    
+    .topnav.responsive ul {
+        float : left;
+        padding-left:0px;
+        margin-left:0px;
+        margin-bottom:0px;
+    }
+    
+    .topnav.responsive li{
+        float: unset;
+        display: inline-block;
+        width : 300px;
+        margin-bottom:50px;
+        padding-left:0px;
+        margin-left:0px;
+    }
+
+    .topnav.responsive ul.nav-right li a {
+        padding-left:140px;
+        padding-right:140px;
+    }
+
+    .nav-right li a:hover {
+        background-color: white;
+        color: black;
+        transition-duration: 0.2s;
+    }
+    
+    main {
+        display: unset;
+    }    
+    
+    aside {
+        width: 100%;
+        float: none;
+    }
+
+    .main-content {
+        float: none;   
+        width: 100%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .biodata th {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .biodata td {
+        padding: 10px 0px;
+    }
+
+    #Contact {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    input[type=text], input[type=email], input[type=number], select, textarea {
+        width: 250px;
+    }
+    
+    .btn-submit {
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    #Contact {
+        width: 100%;
+        margin-top: 120px;
+    }
+    
+    #Contact td, th {
+        padding: 10px 0px;
+        vertical-align: top;
+    }
+
+    #Contact table {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .mobile .backTohome {
+        margin-left: 20px;
+    }
+
+}

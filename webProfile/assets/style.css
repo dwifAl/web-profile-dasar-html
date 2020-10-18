@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-left {
+    float: left;
+    margin: 15px 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+.nav-right {
+    float: right;
+    list-style: none;
+    margin: 20px 20px 15px 20px;
+}
+
+.nav-right li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.nav-right li a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding : 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-right li a:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.6s;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+.jumbotron img{
+    width: 100%;
+    background-size: cover;
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+aside {
+    width: 30%;
+    float: left;
+    height: fit-content;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+	background-color: rgb(255, 255, 255);
+}
+
+.section-header {
+    background-color: black;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.title{
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-article {
+    padding: 10px;
+    margin-top: 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.main-content {
+    float: right;   
+    width: 70%;
+}
+
+.biodata {
+    padding: 5px 10px;
+    border-spacing: 0px;
+}
+
+.mobile {
+    display: none;
+}
+
+.biodata td, th {
+    padding: 10px 20px;
+}
+
+#inovation {
+    margin-top: 30px;
+}
+
+.section-article li {
+    line-height: 30px;
+    font-family: cursive;
+}
+
+#Contact {
+    width: 100%;
+    margin-top: 120px;
+}
+
+#Contact td, th {
+    padding: 10px 20px;
+    vertical-align: top;
+}
+
+#Contact table {
+    margin: 20px 0px 20px 20px;
+}
+
+.red {
+    color: red;
+}
+
+input[type=text], input[type=email], input[type=number], select, textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+.btn-submit {
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 50px;
+    width: 640px;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}

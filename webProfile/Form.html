@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile || By Dwi Fitria Al Husaeni</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <script src="https://kit.fontawesome.com/88ee646ca2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header-top">
+        <nav class="topnav" id="myTopnav">
+            <h1 class="nav-left">A Tribute For Steve Jobs</h1>
+            <ul class="nav-right">
+                <li>
+                    <a href="Home.html">Home</a>
+                </li>
+                <li>
+                    <a href="Form.html">Contact</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0);" class="icon" onclick="mobileNavbar()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Contact" class="card desktop">
+            <form action="Home.html">
+                <fieldset>
+                    <legend>Let Ostric Know Who You Are</legend>
+                    <table>
+                        <tr>
+                            <td><label for="name"> Name <span class="red">*</span></label></td>
+                            <td>:</td>
+                            <td><input type="text" name="Name" id="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email"> Email <span class="red">*</span></label></td>
+                            <td>:</td>
+                            <td><input type="email" name="email" id="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="age"> Age <span class="red">*</span></label></td>
+                            <td>:</td>
+                            <td><input type="number" name="age" id="age" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="role">Role</label></td>
+                            <td>:</td>
+                            <td>
+                                <select name="role" id="role">
+                                    <option value="#"></option>
+                                    <option value="Learner"> Learner</option>
+                                    <option value="Worker">Worker</option>
+                                    <option value="Enterpreneur">Enterpreneur</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><label for="og">Ostric Generation</label></td>
+                            <td rowspan="3">:</td>
+                            <td>
+                                <input type="radio" name="years" id="years1" value="2018"> 2018
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="years" id="years2" value="2019"> 2019</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="years" id="years3" value="other"> Other</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3"><label for="interest">Interested in What Area</label></td>
+                            <td rowspan="3">:</td>
+                            <td>
+                                <input type="checkbox" name="passion" id="passion1" value="Front-end"> Front-end
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="passion" id="passion2" value="Back-end"> Back-end</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="passion-v" id="passion3" value="Data Visualization"> Data Visualization</td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit" class="btn-submit">
+                </fieldset>
+            </form>
+        </section>
+        <section id="Contact" class="mobile">
+            <!-- Form untuk Mobile -->
+            <form action="Home.html" class="card" style="margin-bottom: 25px;">
+                <fieldset>
+                    <legend>Let Ostric Know Who You Are</legend>
+                    <table>
+                        <tr>
+                            <td><label for="name"> Name <span class="red">*</span></label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="Name" id="name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email"> Email <span class="red">*</span></label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="email" name="email" id="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="age"> Age <span class="red">*</span></label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="number" name="age" id="age" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="role">Role</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select name="role" id="role">
+                                    <option value="#"></option>
+                                    <option value="Learner"> Learner</option>
+                                    <option value="Worker">Worker</option>
+                                    <option value="Enterpreneur">Enterpreneur</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="og">Ostric Generation</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="radio" name="years" id="years1" value="2018"> 2018
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="years" id="years2" value="2019"> 2019</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="years" id="years3" value="other"> Other</td>
+                        </tr>
+                        <tr>
+                            <td><label for="interest">Interested in What Area</label></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="passion" id="passion1" value="Front-end"> Front-end
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="passion" id="passion2" value="Back-end"> Back-end</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="passion-v" id="passion3" value="Data Visualization"> Data Visualization</td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Submit" class="btn-submit">
+                </fieldset>
+            </form>
+            <a href="Home.html" class="backTohome">Back to Home</a>
+        </section>
+    </main>
+    <footer>
+        <a href="Form.html">Ostric Want Contact You</a>
+        <br>
+        <a href="https://www.instagram.com/dwif_alhusaeni/" target="_blank">Made By Dwi Fitria Al Husaeni</a>
+    </footer>
+</body>
+<script>
+    function mobileNavbar() {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+</html>
